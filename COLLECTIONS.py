@@ -2,7 +2,7 @@
 # #collections --> Counter, namedtuple, orderedDict, defaultdict, deque
 
 # from collections import Counter
-# #
+# #used to count the frequency of elements in an iterable(such as a list, string, or tuple)
 # a = "aaaabbbcc"
 # my_counter = Counter(a)
 # print(my_counter)
@@ -18,7 +18,7 @@
 # print(list(my_counter.elements()))
 
 # from collections import namedtuple
-# #
+# #creates a tuple like objects with named fields instead of accessing elements by index
 # Point = namedtuple('Point','x,y')
 # pt = Point(3,9)
 # print(pt)
