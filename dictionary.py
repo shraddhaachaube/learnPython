@@ -1,5 +1,6 @@
 # #comment out to run a particular block of code
 # #dictionary --> key:value pairs, unordered, mutable
+
 # dict1 = {"name": "Sid", "age": 19, "city": "NYC"}
 # print(dict1)
 
@@ -75,4 +76,4 @@
 # print(dict7)
 
 # #we can use a tuple as a key 'cause it is immutable but not a list 'cause lists are mutable 
-# #value can be anythings
+# #values can be anything
