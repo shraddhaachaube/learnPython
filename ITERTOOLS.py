@@ -31,7 +31,7 @@
 
 
 # #ACCUMULATE
-from itertools import accumulate
+# from itertools import accumulate
 # import operator
 # g = [1,2,5,3,4]
 # acc1 = accumulate(g) #computes the sum by default
@@ -42,12 +42,11 @@ from itertools import accumulate
 # acc3 = accumulate(g, func=max)# returns the maximum
 # print(list(acc3))
 
-#taking input from the user and calculating sum of two numbers without using +, - operators
-f = list()
-f.append(float(input("Enter the 1st number : ")))
-f.append(float(input("Enter the 2nd number : ")))
-acc = accumulate(f)
-print(acc)
+# #taking input from the user and calculating sum of two numbers without using +, - operators
+# f = list()
+# f.append(float(input("Enter the 1st number : ")))
+# f.append(float(input("Enter the 2nd number : ")))
+# acc = accumulate(f)
 # sum = list(acc)
 # print("The sum of the given two numbers is : ", sum[-1])
 
